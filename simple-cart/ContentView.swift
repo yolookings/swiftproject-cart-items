@@ -16,14 +16,16 @@ struct CartItem: Identifiable {
 
 struct ContentView: View {
     let items: [CartItem] = [
-        CartItem(name: "Mini Pie", price: 10000, quantity: 2),
-        CartItem(name: "Chocolate Cake", price: 25000, quantity: 1),
-        CartItem(name: "Cheesecake", price: 30000, quantity: 3),
-        CartItem(name: "Cheesecake", price: 30000, quantity: 3),
-        CartItem(name: "Cheesecake", price: 30000, quantity: 3),
-        CartItem(name: "Cheesecake", price: 30000, quantity: 3),
-        CartItem(name: "Cheesecake", price: 30000, quantity: 3),
-        CartItem(name: "Cheesecake", price: 30000, quantity: 3),
+        CartItem(name: "Apple Pie", price: 15000, quantity: 1),
+        CartItem(name: "Blueberry Muffin", price: 12000, quantity: 2),
+        CartItem(name: "Chocolate Brownie", price: 20000, quantity: 3),
+        CartItem(name: "Vanilla Donut", price: 8000, quantity: 4),
+        CartItem(name: "Strawberry Tart", price: 18000, quantity: 1),
+        CartItem(name: "Carrot Cake", price: 25000, quantity: 2),
+        CartItem(name: "Banana Bread", price: 10000, quantity: 3),
+        CartItem(name: "Red Velvet Cupcake", price: 20000, quantity: 1),
+        CartItem(name: "Lemon Meringue Pie", price: 22000, quantity: 2),
+        CartItem(name: "Pumpkin Pie", price: 7000, quantity: 1),
     ]
     
     var totalPrice : Int {
