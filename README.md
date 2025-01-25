@@ -60,7 +60,7 @@ ForEach(items) { item in
 git clone https://github.com/your-username/simple-cart.git
 ```
 
-2. Open the project in Xcode.
+2. Open the project in `Xcode`.
 3. Build and run the project on a simulator or a physical device.
 
 ## Future Improvements
