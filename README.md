@@ -1,4 +1,4 @@
-# Simple Cart
+# Simple Cart on iOS
 
 A simple shopping cart interface built with `SwiftUI`. This project demonstrates the basics of building a cart UI, including displaying items, quantities, prices, and calculating the total price dynamically.
 
